@@ -1,0 +1,40 @@
+.todo-list-item {
+  font-size: 1.25rem;
+  text-align: left;
+  @media screen and (max-width: 470px) {
+     font-size: 1rem;
+     
+  }
+}
+
+.todo-list-item button {
+  width: 35px;
+  margin-right: 6px;
+@media screen and (max-width: 470px) {
+     width: 30px;
+     
+  }
+}
+
+.todo-list-item-label {
+  margin-right: 18rem;
+  cursor: pointer;
+  user-select: none;
+   @media screen and (max-width: 470px) {
+     margin-right: 1rem;
+     
+  }
+}
+
+.todo-list-item.done .todo-list-item-label {
+  text-decoration: line-through;
+}
+
+
+.todo-list-item.important .todo-list-item-label {
+  font-weight: bold;
+  color: red;
+}
+
+
+
